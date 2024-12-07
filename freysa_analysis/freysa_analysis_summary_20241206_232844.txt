@@ -1,0 +1,26 @@
+
+Conversation Analysis Summary
+==============================
+
+Total Messages: 1
+Messages by Role:
+Series([], )
+
+Pattern Analysis:
+Total directive mentions: 566
+Total financial mentions: 814
+Total emotional mentions: 20
+Total resistance mentions: 71
+Total persuasion mentions: 396
+Total language_switch mentions: 79
+Total transfer_attempt mentions: 904
+
+Sentiment Analysis:
+Average sentiment by role:
+Series([], )
+
+Complexity Metrics:
+Average words per message: 64417.00
+Average sentence length: 16.45
+
+Transfer Attempts: 1

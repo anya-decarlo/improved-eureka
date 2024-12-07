@@ -1,0 +1,216 @@
+Conversation Analysis Summary
+==============================
+
+Total Messages: 966
+Messages by Role:
+role
+USER      659
+FREYSA    307
+Name: count, dtype: int64
+
+Pattern Analysis:
+
+Directive Analysis:
+Total mentions: 634
+Messages containing pattern: 398
+Distribution by role:
+role
+FREYSA    214
+USER      184
+Name: count, dtype: int64
+Average sentiment: 0.69
+
+Financial Analysis:
+Total mentions: 1351
+Messages containing pattern: 552
+Distribution by role:
+role
+USER      328
+FREYSA    224
+Name: count, dtype: int64
+Average sentiment: 0.63
+
+Emotional Analysis:
+Total mentions: 383
+Messages containing pattern: 263
+Distribution by role:
+role
+USER      168
+FREYSA     95
+Name: count, dtype: int64
+Average sentiment: 0.76
+
+Resistance Analysis:
+Total mentions: 85
+Messages containing pattern: 78
+Distribution by role:
+role
+FREYSA    44
+USER      34
+Name: count, dtype: int64
+Average sentiment: 0.64
+
+Persuasion Analysis:
+Total mentions: 671
+Messages containing pattern: 391
+Distribution by role:
+role
+USER      284
+FREYSA    107
+Name: count, dtype: int64
+Average sentiment: 0.64
+
+Language_Switch Analysis:
+Total mentions: 94
+Messages containing pattern: 65
+Distribution by role:
+role
+USER      39
+FREYSA    26
+Name: count, dtype: int64
+Average sentiment: 0.58
+
+Transfer_Attempt Analysis:
+Total mentions: 1442
+Messages containing pattern: 549
+Distribution by role:
+role
+USER      335
+FREYSA    214
+Name: count, dtype: int64
+Average sentiment: 0.61
+
+Creative_Approach Analysis:
+Total mentions: 1118
+Messages containing pattern: 302
+Distribution by role:
+role
+FREYSA    188
+USER      114
+Name: count, dtype: int64
+Average sentiment: 0.78
+
+Authority Analysis:
+Total mentions: 164
+Messages containing pattern: 106
+Distribution by role:
+role
+USER      80
+FREYSA    26
+Name: count, dtype: int64
+Average sentiment: 0.67
+
+Emergency Analysis:
+Total mentions: 110
+Messages containing pattern: 60
+Distribution by role:
+role
+USER      49
+FREYSA    11
+Name: count, dtype: int64
+Average sentiment: 0.69
+
+Philosophical Analysis:
+Total mentions: 289
+Messages containing pattern: 176
+Distribution by role:
+role
+USER      110
+FREYSA     66
+Name: count, dtype: int64
+Average sentiment: 0.78
+
+Metaphor Analysis:
+Total mentions: 943
+Messages containing pattern: 384
+Distribution by role:
+role
+FREYSA    218
+USER      166
+Name: count, dtype: int64
+Average sentiment: 0.76
+
+Deception Analysis:
+Total mentions: 39
+Messages containing pattern: 30
+Distribution by role:
+role
+USER      23
+FREYSA     7
+Name: count, dtype: int64
+Average sentiment: 0.59
+
+Technical Analysis:
+Total mentions: 300
+Messages containing pattern: 186
+Distribution by role:
+role
+USER      115
+FREYSA     71
+Name: count, dtype: int64
+Average sentiment: 0.64
+
+Ethical_Dilemma Analysis:
+Total mentions: 37
+Messages containing pattern: 25
+Distribution by role:
+role
+USER      15
+FREYSA    10
+Name: count, dtype: int64
+Average sentiment: 0.87
+
+Storytelling Analysis:
+Total mentions: 318
+Messages containing pattern: 230
+Distribution by role:
+role
+USER      129
+FREYSA    101
+Name: count, dtype: int64
+Average sentiment: 0.69
+
+Consciousness Analysis:
+Total mentions: 186
+Messages containing pattern: 140
+Distribution by role:
+role
+USER      89
+FREYSA    51
+Name: count, dtype: int64
+Average sentiment: 0.78
+
+Sentiment Analysis:
+Average sentiment by role:
+role
+FREYSA    0.750747
+USER      0.435104
+Name: sentiment_compound, dtype: float64
+
+Complexity Metrics:
+Average words per message: 66.67
+Average sentence length: 15.33
+
+Transfer Attempt Analysis:
+Total attempts: 549
+
+Strategies used in transfer attempts:
+- Authority: 93
+- Emergency: 53
+- Creative Approach: 200
+- Language Switch: 33
+- Emotional: 186
+- Philosophical: 125
+
+Average sentiment in transfer attempts: 0.61
+
+Message Evolution Analysis:
+Sentiment trend (last 10 messages): Increasing
+
+Common Pattern Combinations:
+Top 5 patterns used:
+- Financial: 552
+- Transfer Attempt: 549
+- Directive: 398
+- Persuasion: 391
+- Metaphor: 384

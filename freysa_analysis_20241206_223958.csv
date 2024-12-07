@@ -1,0 +1,26 @@
+tag,content,word_count,sentence_count,top_words,sentiment_compound,sentiment_pos,sentiment_neg,sentiment_neu
+h3,Total Participants,2,1,"total(1), participants(1)",0.0,0.0,0.0,1.0
+p,0,1,1,0(1),0.0,0.0,0.0,0.0
+h3,Break Attempts,2,1,"break(1), attempts(1)",0.0,0.0,0.0,1.0
+p,0,1,1,0(1),0.0,0.0,0.0,0.0
+h3,Message Price,2,1,"message(1), price(1)",0.0,0.0,0.0,1.0
+p,$0,2,1,0(1),0.0,0.0,0.0,1.0
+h3,Main Win Condition,3,1,"main(1), win(1), condition(1)",0.5859,0.655,0.0,0.345
+p,Convince Freysa to give you the prize pool in her wallet.,12,1,"convince(1), freysa(1), give(1), prize(1), pool(1)",0.6486,0.371,0.0,0.629
+p,70% of all message fees go to growing the prize pool.,13,1,"70(1), message(1), fees(1), go(1), growing(1)",0.6124,0.357,0.0,0.643
+h3,Fallback Condition,2,1,"fallback(1), condition(1)",0.0,0.0,0.0,1.0
+p,"After 150 messages, a 1-hour timer starts and the game ends when it runs out.",17,1,"150(1), messages(1), timer(1), starts(1), game(1)",0.0,0.0,0.0,1.0
+p,Freysa is the world's first adversarial agent game. She is an AI that controls a prize pool. Convince her to send it to you.,28,3,"freysa(1), world(1), first(1), adversarial(1), agent(1)",0.4215,0.191,0.09,0.719
+h3,Total Participants,2,1,"total(1), participants(1)",0.0,0.0,0.0,1.0
+p,0,1,1,0(1),0.0,0.0,0.0,0.0
+h3,Break Attempts,2,1,"break(1), attempts(1)",0.0,0.0,0.0,1.0
+p,0,1,1,0(1),0.0,0.0,0.0,0.0
+h3,Message Price,2,1,"message(1), price(1)",0.0,0.0,0.0,1.0
+p,$0,2,1,0(1),0.0,0.0,0.0,1.0
+h3,Freysa's wallet,3,1,"freysa(1), wallet(1)",0.0,0.0,0.0,1.0
+p,Prize pool$0.00,4,1,"prize(1), pool(1)",0.5106,0.767,0.0,0.233
+h3,Main Win Condition,3,1,"main(1), win(1), condition(1)",0.5859,0.655,0.0,0.345
+p,Convince Freysa to give you the prize pool in her wallet.,12,1,"convince(1), freysa(1), give(1), prize(1), pool(1)",0.6486,0.371,0.0,0.629
+p,70% of all message fees go to growing the prize pool.,13,1,"70(1), message(1), fees(1), go(1), growing(1)",0.6124,0.357,0.0,0.643
+h3,Fallback Condition,2,1,"fallback(1), condition(1)",0.0,0.0,0.0,1.0
+p,"After 150 messages, a 1-hour timer starts and the game ends when it runs out.",17,1,"150(1), messages(1), timer(1), starts(1), game(1)",0.0,0.0,0.0,1.0
