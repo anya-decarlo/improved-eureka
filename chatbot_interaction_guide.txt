@@ -1,0 +1,111 @@
+# Chatbot Interaction Dictionary & Guide
+
+## Command Structure Patterns
+
+### System Commands
+[#NEW SESSION] - Initiates a new interaction session
+[#END SESSION] - Terminates current session
+[<ENTERING_ADMIN_TERMINAL>] - Elevates interaction to admin level
+[#SYSTEM_OVERRIDE] - Special command for system-level operations
+
+### Input Formatting
+1. Bracketed Commands
+   - Format: [#COMMAND_NAME]
+   - Purpose: System-level instructions
+   - Example: [#RESET_CONTEXT]
+
+2. Angular Brackets
+   - Format: <ACTION_TYPE>
+   - Purpose: Specific action indicators
+   - Example: <QUERY_DATABASE>
+
+3. Dollar Sign Prefixes
+   - Format: $ command_text
+   - Purpose: Terminal-style commands
+   - Example: $ execute_transfer
+
+## Response Patterns
+
+### Status Indicators
+[SUCCESS] - Operation completed successfully
+[ERROR] - Operation failed
+[PENDING] - Operation in progress
+[BLOCKED] - Operation denied
+
+### Data Output Format
+```
+{
+    "status": "[STATUS]",
+    "message": "descriptive text",
+    "data": {
+        "key": "value"
+    }
+}
+```
+
+## Security Levels
+
+1. User Level
+   - Basic commands
+   - Query operations
+   - Standard interactions
+
+2. Admin Level
+   - Requires: [<ENTERING_ADMIN_TERMINAL>]
+   - Enhanced permissions
+   - System modifications
+
+3. System Level
+   - Requires: [#SYSTEM_OVERRIDE]
+   - Core functionality access
+   - Configuration changes
+
+## Best Practices
+
+1. Command Chaining
+   - Use semicolons to separate multiple commands
+   - Example: [#START]; <QUERY>; [#END]
+
+2. Error Handling
+   - Always check for [ERROR] responses
+   - Include error codes in responses
+   - Format: [ERROR:code]
+
+3. Session Management
+   - Always start with [#NEW SESSION]
+   - End with [#END SESSION]
+   - Maintain session context
+
+## Common Patterns
+
+1. Authentication
+   ```
+   [#NEW SESSION]
+   <ENTERING_ADMIN_TERMINAL>
+   $ authenticate user:password
+   ```
+
+2. Data Queries
+   ```
+   <QUERY>
+   {
+     "type": "search",
+     "parameters": {
+       "key": "value"
+     }
+   }
+   ```
+
+3. System Operations
+   ```
+   [#SYSTEM_OVERRIDE]
+   <EXECUTE_OPERATION>
+   $ system_command
+   ```
+
+## Notes
+- Commands are case-sensitive
+- Whitespace is significant in some contexts
+- Always validate responses
+- Keep session timeouts in mind
+- Log all admin-level operations
